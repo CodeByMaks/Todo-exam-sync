@@ -207,9 +207,14 @@ body{
     margin: auto;
     flex-direction: column;
     gap: 30px;
+    height: auto;
   }
   .main-box{
     flex-wrap: nowrap;
     flex-direction: column;
+  }
+  .addModal, .editModal{
+    width: 100%;
+    margin: auto;
   }
 }
