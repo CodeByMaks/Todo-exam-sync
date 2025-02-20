@@ -194,9 +194,6 @@ body{
 }
 
 @media (max-width: 768px){
-  body{
-    overflow-x: hidden;
-  }
   .menu{
     width: 90%;
     margin: auto;
@@ -210,6 +207,7 @@ body{
     height: auto;
   }
   .main-box{
+    width: 100%;
     flex-wrap: nowrap;
     flex-direction: column;
   }
