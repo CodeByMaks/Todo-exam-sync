@@ -1,0 +1,215 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+body{
+  max-width: 1530px;
+  margin: auto;
+}
+.menu{
+  width: 75%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5%;
+  padding: 30px 0px;
+}
+.menu h1{
+  font-size: 70px;
+  color: gray;
+}
+.menu-tools{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.main{
+  width: 75%;
+  margin: auto;
+  justify-content: space-between;
+  display: flex;
+}
+.main-box{
+  width: 700px;
+  height: 400px;
+  display: flex;
+  gap: 20px;
+  overflow-y: auto;
+  flex-wrap: wrap;
+}
+.list-menu{
+  width: 326px;
+  height: 300px;
+}
+.colOne{
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background-color: #81DCF0;
+}
+.colTwo{
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background-color: #F8ABAB;
+}
+.circle{
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background-color: #B7B1DD;
+}
+.list-example{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 10px 0px;
+  color: gray;
+}
+.hideDone{
+  display: flex;
+  gap: 20px;
+  padding: 30px 0px;
+  font-size: 20px;
+  color: gray;
+}
+.hideDone input{
+  width: 25px;
+  height: 25px;
+  box-shadow: 0px 0px 10px gray;
+}
+.menu-tools select{
+  padding: 6px 0px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 0px 3px gray;
+  outline: #F8ABAB;
+  cursor: pointer;
+}
+.menu-tools input{
+  width: 200px;
+  padding: 6px 10px;
+  outline: #F8ABAB;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 0px 3px gray;
+}
+.menu-tools p {
+  font-size: 40px;
+  cursor: pointer;
+}
+.item-box{
+  width: 300px;
+  height: 150px;
+  padding: 15px;
+  background-color: #FFF9DE;
+  border-radius: 5px;
+}
+.tool-flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5%;
+}
+.check{
+  text-decoration: line-through;
+  color: gray;
+}
+.buttons-style button{
+  background-color: #FFF9DE;
+  border: none;
+  margin: 0px 5px;
+  cursor: pointer;
+}
+.descript{
+  padding: 10px 0px; 
+  color: gray;
+}
+.inp-flex{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.inp-flex input{
+  width: 20px;
+  height: 20px;
+  box-shadow: 0px 0px 10px gray;
+}
+.inp-flex p{
+  font-size: 18px;
+}
+.addModal, .editModal{
+  width: 730px;
+  margin: auto;
+  height: 479px;
+  border: none;
+  box-shadow: 0px 0px 5px gray;
+  border-radius: 5px;
+}
+.main-modal{
+  width: 90%;
+  margin: auto;
+  padding: 30px;
+}
+.task-exit{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.exit{
+  cursor: pointer;
+}
+.inp-title{
+  padding: 20px 0px;
+}
+.inp-title input{
+  width: 95%;
+  padding: 10px 10px;
+}
+.inp-title textarea{
+  width: 95%;
+  padding: 10px 10px 70px;
+}
+.btn-tools{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.btn-tools .save{
+  padding: 10px 30px;
+  border: none;
+  background-color: #2196F3;
+  color: white;
+  border-radius: 5px;
+}
+.btn-tools button{
+  padding: 10px 30px;
+  border: 1px solid #2196F3;
+  background-color: white;
+  color: #2196F3;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+@media (max-width: 768px){
+  body{
+    overflow-x: hidden;
+  }
+  .menu{
+    width: 90%;
+    margin: auto;
+    flex-direction: column;
+  }
+  .main{
+    width: 90%;
+    margin: auto;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .main-box{
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+}
